@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Restaurant</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css">
+ 
+  </head>
+  
+  <body>
+    <div class="wrapper">
+    	<header class="masthead" id="myPage" data-spy="scroll"
+        data-target=".navbar" data-offset="50" >
+        <nav class="navbar navbar-default navbar-fixed-top" >
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" 
+               data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#myPage">Teju&apos;s Restaurant</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#myPage">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#catering">CATERING</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#feedback">FEED BACK</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header><!-- /header -->
+	   
+      <!-- main -->
+      <main class="content">
+		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <img src="img/dosacarousel.jpg"  width="1200" height="700">
+              <div class="carousel-caption">
+                <h3>Dosa</h3>
+                <p>A Yummy Recipes for All</p>
+              </div>      
+            </div>
+            
+            <div class="item">
+              <img src="img/pizzacarousel.jpg"  width="1200"  height="700">
+              <div class="carousel-caption">
+                <h3>Pizza</h3>
+                <p>A yummy Pizza </p>
+              </div>      
+            </div>
+
+            <div class="item">
+              <img src="img/sataycarousel.jpg"  width="1200" height="700">
+              <div class="carousel-caption">
+                <h3>Satay</h3>
+                <p>A Yummy Satays</p>
+              </div>      
+            </div>
+
+            <div class="item">
+              <img src="img/cherrycarousel.jpg"  width="1200"  height="700">
+              <div class="carousel-caption">
+                <h3>cherry</h3>
+                <p>Finish your meal with a Cherry </p>
+              </div>      
+            </div>
+            
+            <div class="item">
+              <img src="img/strawberrycarousel.jpg"  width="1200" height="700">
+              <div class="carousel-caption">
+                <h3>Strawberry Rice Pudding</h3>
+                <p>A perfect Taste </p>
+              </div>      
+            </div>
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" 
+          role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" 
+            aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          
+          <a class="right carousel-control" href="#myCarousel" 
+          role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" 
+            aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- /my page div (carousel) -->
+
+        <!-- menu div  -->
+        <div id="menu" class="container">
+         
+          <!-- title div  -->
+          <div class="title-page">
+            <h1 class="title">Menu</h1>
+        	</div>
+          
+          <select id="menutype">
+            <option value="appetizer">appetizer</option>
+            <option value="entree">Entree</option>
+            <option value="rice">Rice</option>
+            <option value="noodles">Noodles</option>
+            <option value="deserts">Deserts</option>
+            <option value="juices">Juices</option>
+          </select>
+          
+          <!-- section for menu  -->
+          <section class="menus clearfix" id="appetizer" >
+            
+            <div class="menu">
+              <h3>Fish Fry</h3>
+              <img src="img/fishfry.jpg" />
+              <p><i>F</i>ish fry refers to any fish or shellfish that has 
+                been prepared by frying&period; Often&comma; the fish 
+                is covered in batter&comma; or flour&comma;  
+                spices before being fried&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Prawn Fry</h3>
+              <img src="img/prawn.jpg" />
+              <p><i>P</i>rawn fry is a fermented crepe made from rice 
+                batter and black lentils&period; It is a staple dish in 
+                South Indian states&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Chicken 65</h3>
+              <img src="img/chicken65.jpg" />
+              <p><i>C</i>hicken 65 is a popular and tasty treat served 
+                throughout Israel.</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Shrimp </h3>
+              <img src="img/shrimp.jpg" />
+              <p><i>S</i>hrimp  simple sausage roll recipe 
+                is perfect to whip up for a party or BBQ when 
+                tasty finger food is in order&#33;</p>
+              <p><a href="#menu" >View details</a></p>
+            </div>
+          </section><!-- /section   -->
+           
+          <section class="menus clearfix" id="entree" style="display:none">
+            
+            <div class="menu">
+              <h3>Butter Chicken</h3>
+              <img src="img/butterchicken.jpg" />
+              <p><i>B</i>utter chicken is a fermented crepe made 
+                from rice batter and black lentils&period; 
+                It is a staple dish in South Indian states&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+
+            <div class="menu">
+              <h3>Roti Canai</h3>
+              <img src="img/menu1.jpg" />
+              <p><i>R</i>oti canai or roti chennai  is a dish 
+                unique to Malaysia &period; Roti means bread in Hindi &#40;
+                and Malay&#41;The term &#39;canai&#39; comes from &#39;
+                channa&#39;&comma; a mixture of boiled chickpeas in a 
+                spicy gravy&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Chicken Schnitzel</h3>
+              <img src="img/menu3.jpg" />
+              <p><i>C</i>hicken Schnitzel is a popular and tasty 
+                treat served throughout Israel&period; Schnitzel is 
+                Austrian in origin&#59; it was traditionally 
+                made with veal &#40;known as Wiener Schnitzel&#41;
+                or pork&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>pork and fennel sausage rolls</h3>
+              <img src="img/menu4.jpg" />
+              <p><i>T</i>his simple sausage roll recipe is 
+                perfect to whip up for a party or BBQ 
+                when tasty finger food is in order&#33;</p>
+              <p><a href="#menu" >View details</a></p>
+            </div>
+          </section><!-- /section   -->
+          <section class="menus clearfix" id="rice" style="display:none">
+            
+            <div class="menu">
+              <h3>Chicken Fried Rice</h3>
+              <img src="img/chickenfriedrice.jpg" />
+              <p><i>C</i>hicken Fried Rice is a fermented 
+                crepe made from rice batter and black 
+                lentils&period; It is a staple dish in 
+                South Indian states&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+
+            <div class="menu">
+              <h3>Szechwan Fried Rice</h3>
+              <img src="img/szechwanfriedrice.jpg" />
+              <p><i>R</i>oti canai or roti chennai  is a dish 
+                unique to Malaysia &period; Roti means bread 
+                in Hindi &#40;and Malay&#41;The term &#39;canai&#39; 
+                comes from &#39;channa&#39;&comma; a mixture 
+                of boiled chickpeas in a spicy gravy&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Shrimp Fried Rice</h3>
+              <img src="img/shrimpfriedrice.jpg" />
+              <p><i>S</i>hrimp Fried Rice is a popular 
+                and tasty treat served throughout Israel. 
+                Schnitzel is Austrian in origin&#59; it was 
+                traditionally made with veal &#40;known as 
+                Wiener Schnitzel&#41;or pork&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Biryani</h3>
+              <img src="img/chickenbiryani.jpg"  />
+              <p><i>T</i>his simple sausage roll recipe 
+                is perfect to whip up for a party or BBQ 
+                when tasty finger food is in order&#33;</p>
+              <p><a href="#menu" >View details</a></p>
+            </div>
+          </section><!-- /section   -->
+          
+          <section class="menus clearfix" id="noodles" style="display:none">
+            
+            <div class="menu">
+              <h3>Chicken Noodles</h3>
+              <img src="img/chickennoodles.jpg" />
+              <p><i>C</i>hicken Noodles is a fermented crepe 
+                made from rice batter and black lentils&period; 
+                It is a staple dish in South Indian states&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Szechwan Noodles</h3>
+              <img src="img/szechwannoodles.jpg" />
+              <p><i>S</i>zechwan Noodles or roti chennai  is 
+                a dish unique to Malaysia &period; Roti means 
+                bread in Hindi &#40;and Malay&#41;
+                The term &#39;canai&#39; comes from &#39;
+                channa&#39;&comma; a mixture of boiled 
+                chickpeas in a spicy gravy&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+          </section><!-- /section   -->
+          
+          <!-- section for menu  -->
+          <section class="menus clearfix" id="deserts" style="display:none">
+            
+            <div class="menu">
+              <h3>Rasa Malai</h3>
+              <img src="img/rasamalai.jpg" />
+              <p><i>R</i>asa malai or roti chennai  is a 
+                dish unique to Malaysia &period; Roti means 
+                bread in Hindi &#40;and Malay&#41;The term &#39;
+                canai&#39; comes from &#39;channa&#39;&comma; 
+                a mixture of boiled chickpeas in a spicy gravy&period;</p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Gulab jamun</h3>
+              <img src="img/gulabjamun.jpg" />
+              <p><i>G</i>ulab jamun is a fermented 
+                crepe made from rice batter and 
+                black lentils&period; It is a staple 
+                dish in South Indian states&period;
+              </p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Payasam</h3>
+              <img src="img/payasam.jpg" />
+              <p><i>P</i>ayasam is a popular and tasty 
+                treat served throughout Israel&period; Schnitzel
+                 is Austrian in origin&#59; it was 
+                 traditionally made with veal &#40;known as 
+                 Wiener Schnitzel&#41;or pork&period;
+               </p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Rice Kheer</h3>
+              <img src="img/desserts.jpg" />
+              <p><i>R</i>ice Kheer simple sausage roll 
+                recipe is perfect to whip up for a party 
+                or BBQ when tasty finger food is in order&#33;
+              </p>
+              <p><a href="#menu" >View details</a></p>
+            </div>
+          </section><!-- /section   -->
+          
+           <!-- section for menu  -->
+          <section class="menus clearfix" id="juices" style="display:none">
+            
+            <div class="menu">
+              <h3>Orange juice</h3>
+              <img src="img/orange.jpg" />
+              <p><i>O</i>range juice or roti chennai 
+               is a dish unique to Malaysia &period; 
+               Roti means bread in Hindi &#40;and Malay&#41;
+               The term &#39;canai&#39; comes from &#39;
+               channa&#39;&comma; a mixture of boiled 
+               chickpeas in a spicy gravy&period;
+              </p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Water Melon</h3>
+              <img src="img/watermelon.jpg" />
+              <p><i>W</i>ater Melon is a fermented crepe 
+                made from rice batter and black lentils&period; 
+                It is a staple dish in South Indian states&period;
+              </p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+            
+            <div class="menu">
+              <h3>Grape Juice</h3>
+              <img src="img/grape.jpg" />
+              <p><i>G</i>rape juice is a popular and tasty 
+                treat served throughout Israel. Schnitzel is
+                Austrian in origin&#59; it was traditionally 
+                made with veal &#40;known as Wiener
+                Schnitzel&#41;or pork&period;
+                </p>
+              <p><a href="#menu" class="btn">View details</a></p>
+            </div>
+          </section><!-- /section   -->
+        </div>
+        <!-- /menu div  -->
+    
+        <!-- catering div  -->
+        <div id="catering" class="container">
+          
+          <div class="title-page">
+              <h1 class="title">Catering Services</h1>
+          </div>
+          
+          <!--using bootstrap modals and adding own styles -->
+          <ul class="nav nav-pills ">
+            <li>
+              <a href="#birthday" data-toggle="modal" 
+                data-target="#birthDayModal"> <p class="modaltitle">Birth Day Event</p>
+                <img src="img/birthdaymodal1.jpg"  
+                  alt="Birthday" width="1200" height="600" >
+               </a>
+            </li>
+            <li>
+              <a href="#engagement" data-toggle="modal" 
+                data-target="#engagementModal"><p class="modaltitle">Engagement and Wedding</p>
+                <img src="img/weddingmodal.jpg"  alt="wedding" 
+                width="1200" height="600">
+              </a>
+            </li>
+            <li>
+              <a href="#babyShowerModal" data-toggle="modal" 
+              data-target="#babyShowerModal"><p class="modaltitle">Baby Shower</p>
+              <img src="img/babymodal.jpg"  alt="baby shower"
+               width="1200" height="600">
+             </a>
+            </li>
+            <li>
+              <a href="#christmasModal" data-toggle="modal" 
+                data-target="#christmasModal"><p class="modaltitle">Christmas</p>
+              <img src="img/christmasmodal1.jpg"  alt="Christmas" 
+                width="1200" height="600">
+              </a>
+            </li>
+          </ul>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="birthDayModal" role="dialog">
+            
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content" id="birthdaymodal">
+                
+                <div class="modal-header">
+                  <button type="button" class="close" 
+                    data-dismiss="modal">&times;
+                  </button>
+                  <h4 class="modal-title">Birth Day Party</h4>
+                </div>
+                
+                <div class="modal-body">
+                  <p>At Flavours<em> Catering &#43; Events</em>&comma; 
+                    we are birthday party catering specialists&period; 
+                    We&#8217;ve catered hundreds of birthday parties&comma; 
+                    for both young and old&comma; and we know how 
+                    to create a deliciously memorable experience 
+                    that will please the host&comma; the guest of 
+                    honour and of course&comma; your guests!
+                  </p>
+                  
+                  <img src="img/birthdayimg.jpg"  
+                  alt="Birthday">
+                  
+                  <p>Birthday parties are a wonderful opportunity 
+                    for family and friends to gather together and 
+                    celebrate the life of a loved one&period; Our 
+                    birthday party catering service will help you 
+                    commemorate this very special occasion with 
+                    beautiful food&period; We have a large 
+                    collection of menus that are suitable for 
+                    birthday party catering&period; Choose 
+                    from our range of menu options&#58; 
+                    cocktail&#59;buffets&#59; barbeques&#59; 
+                    formal dining or our very our &#8216;
+                    Feasting Stations&#8217;.
+                  </p>
+                  
+                  <h2>Venue</h2>
+                  
+                  <p>We can provide birthday party catering
+                   anywhere you please &#8211; residential 
+                   homes&comma; beaches&comma; parks&comma; 
+                   community halls&comma; surf clubs&comma; 
+                   function centres and more&period; If you&#8217;re 
+                   not holding the event at home&comma; 
+                   be sure to check what amenities are 
+                   available at your chosen venue&#59; eg&comma;
+                    bathrooms&comma; kitchen&comma;
+                  </p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Theme</h2>
+                  
+                  <p>Themes are a great way to make the party even 
+                    more memorable. We&#8217;ve provided birthday
+                    party catering in the past to match many 
+                    themes including hollywood glamour&#59; 
+                    the 80s&#59; Casino Royale&#59; colours&#59; 
+                    and international&period;
+                   </p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Cake</h2>
+                  <p>The birthday cake is the pinnacle of 
+                    every party&period; You don&#8217;t have 
+                    to be a domestic goddess to create a really
+                    spectacular cake that will make guests
+                    &#8220;ooh&#8221; and &#8220;aah&#8221;&period;
+                    Hit the recipe books or search the internet
+                    to make the perfect cake to surprise the
+                    birthday boy or girl&period; 
+                    Alternatively&comma; take advantage 
+                    of our full birthday catering service 
+                    and have our chefs design a cake
+                    that will leave a lasting
+                    impression&period;
+                  </p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Party Favours</h2>
+                  
+                  <p>A party simply isn&#8217;t complete 
+                    without party favours! Make your own or 
+                    find someone who will do it for you&period; 
+                    Our birthday party catering service 
+                    also encompasses party favours&period; 
+                    We can provide your guests with special 
+                    mementos to take home with them&comma;
+                    such as personalised cupcakes or gift boxes 
+                    filled with handmade gourmet treats&period;
+                  </p>
+                  
+                  <p>Our birthday party catering service is 
+                    flexible in terms of whether you&#8217;d 
+                    like a fully staffed event complete with 
+                    an onsite team of chefs and wait staff&comma; 
+                    or you may prefer a DIY-style whereby we 
+                    deliver everything ready-to-serve and 
+                    you take care of the rest&period;
+                  </p>
+                  
+                  <p>No matter whether you&#8217;re 
+                    planning a small&comma; intimate party 
+                    or a huge&comma; lavish celebration&comma; 
+                    <em>Flavours Catering &#43; Events</em> can 
+                    provide you with birthday party catering 
+                    that will dazzle and delight&comma; Call 
+                    our friendly team today on 1300 368 605 
+                    to discuss your requirements or to ask 
+                    for a quotation&period;
+                  </p>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default"
+                    data-dismiss="modal">Close
+                  </button>
+                </div><!--modal-footer div -->
+              </div><!--modal-content div -->
+            </div><!--modal-dialog div -->
+          </div><!--birthDayModal div -->
+      
+          <div class="modal fade" id="engagementModal" role="dialog">
+            
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content" id="weddingmodal">
+                
+                <div class="modal-header">
+                  <button type="button" class="close" 
+                    data-dismiss="modal">&times;
+                </button>
+                  <h4 class="modal-title">Engagement And Wedding Party</h4>
+                </div>
+                
+                <div class="modal-body">
+                  <p>At Flavours<em> Catering &#43;Events</em>&comma; 
+                    we are Wedding party catering specialists&period;
+                    We&#8217;ve catered hundreds of wedding parties&comma; 
+                    and we know how to create a deliciously memorable 
+                    experience that will please the host&comma; 
+                    the guest of honour and of course&comma; 
+                    your guests&#33;
+                  </p>
+                  
+                  <img src="img/weddingimg.jpg" 
+                   alt="Wedding">
+                  
+                  <p>Create a spread of finger foods and juice 
+                    that the kids will enjoy at your wedding 
+                    reception&period; With Ham&#45;and&#45;
+                    Cheese Tartlets and Stuffed Pizza 
+                    Rolls&comma; even the adults won&apos;t 
+                    be able to resist these 
+                    bite-sized treats&period;
+                  </p>
+                  
+                  <h2>Venue</h2>
+                  
+                  <p>We can provide wedding party catering 
+                    anywhere you please &#8211;  
+                    beaches&comma; parks&comma; community 
+                    halls&comma; surf clubs&comma; 
+                    function centres and more&period; 
+                  </p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Theme</h2>
+                  
+                  <p>Themes are a great way to make the party 
+                    even more memorable&period; We&#8217;ve 
+                    provided birthday party catering in 
+                    the past to match many themes including 
+                    hollywood glamour&#59; the 80s&#59; 
+                    Casino Royale&#59; colours&#59; 
+                    and international&period;
+                  </p>
+                  
+                  <p>&nbsp;</p>
+                 
+                  <h2>Party Favours</h2>
+                  
+                  <p>A party simply isn&#8217;t complete 
+                    without party favours! Make your own 
+                    or find someone who will do it for 
+                    you&period; Our wedding party catering
+                    service also encompasses party favours&period; 
+                    We can provide your guests with special
+                    mementos to take home with them&comma; 
+                    such as personalised cupcakes or gift 
+                    boxes filled with handmade gourmet 
+                    treats&period;
+                  </p>
+                  
+                  <p>Our wedding party catering service 
+                    is flexible in terms of whether you&#8217;d 
+                    like a fully staffed event complete 
+                    with an onsite team of chefs 
+                    and wait staff&comma; or you 
+                    may prefer a DIY&#45;style whereby 
+                    we deliver everything ready&#45;to&#45;
+                    serve and you take care of the rest&period;
+                  </p>
+                  
+                  <p>No matter whether you&#8217;re 
+                    planning a small&comma; intimate 
+                    party or a huge&comma; lavish 
+                    celebration&comma; 
+                    <em>Flavours Catering &#43; Events</em> 
+                    can provide you with wedding party 
+                    catering that will dazzle and delight&period;
+                    Call our friendly team today on 1300 368 605
+                    to discuss your requirements or to ask 
+                    for a quotation&period;
+                  </p>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default"
+                   data-dismiss="modal">Close
+                  </button>
+                </div><!--modal-footer div -->
+              </div><!--modal-content div -->
+            </div><!--modal-dialog div -->
+          </div><!--engagementModal div -->
+          
+          <div class="modal fade" id="babyShowerModal" role="dialog">
+            
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content" id="babymodal">
+                
+                <div class="modal-header">
+                  <button type="button" class="close" 
+                    data-dismiss="modal">&times;
+                  </button>
+                  <h4 class="modal-title">Baby Shower Party</h4>
+                </div>
+                
+                <div class="modal-body">
+                  <p>At Flavours<em> Catering &#43; Events</em>&comma; 
+                    we are Baby Shower party catering specialists&period; 
+                    We&#8217;ve catered hundreds of baby Shower 
+                    parties&comma; and we know how to create a 
+                    deliciously memorable experience that will 
+                    please the host&comma; the guest of honour
+                    and of course&comma; your guests&#33;</p>
+                  
+                  <img src="img/babyimg.jpg" 
+                   alt="Baby shower">
+                  
+                  <h2>Drinks for mum to be</h2>
+                  
+                  <ul>
+                    <li>Pineapple&comma;apricot and lime punch </li>
+                    <li>Strawberry apple punch </li>
+                  </ul>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Drinks for the guests</h2>
+                  
+                  <ul>
+                    <li>Champagne with guava and berries </li>
+                    <li>Cosmopolitans </li>
+                  </ul>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Savouries</h2>
+                  
+                  <ul>
+                    <li>Pork and fennel sausage rolls </li>
+                    <li>Sweet corn fritters with avocado salsa </li>
+                    <li>Chicken and almond ribbon sandwiches</li>
+                    <li>Baby lamb and mint meat pies </li>
+                    <li>Prawn and dill sandwiches</li>
+                  </ul>
+                  
+                  <h2>Cakes/sweets</h2>
+                  
+                  <ul>
+                    <li>Chocolate chunk and raspberry brownies </li>
+                    <li>Coffee meringue kisses </li>
+                    <li>Mini scones with raspberry jam and 
+                      vanilla bean mascarpone</li>
+                    <li>Passionfruit layer cake </li>
+                    <li>Pretty vanilla&#45;bean cupcakes</li>
+                  </ul>
+                   
+                   <h2>To take home</h2>
+                  
+                  <ul>
+                    <li>Gingerbread people </li>
+                    <li>Melting moments </li>
+                  </ul>
+                  
+                  <p>For more entertaining ideas&comma; see the 
+                    Menu plans collection</p>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" 
+                    data-dismiss="modal">Close
+                  </button>
+                </div><!--modal-footer div -->
+              </div><!--modal-content div -->
+            </div><!--modal-dialog div -->
+          </div><!--babShowerModal div -->
+          
+          <div class="modal fade" id="christmasModal" role="dialog">
+            
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content" id="christmodal">
+                
+                <div class="modal-header">
+                  <button type="button" class="close" 
+                    data-dismiss="modal">&times;
+                  </button>
+                  <h4 class="modal-title">Christmas Party</h4>
+                </div>
+                <div class="modal-body">
+                  <p>At Flavours<em> Catering &#43; Events</em>&comma; 
+                    we are Christmas party catering specialists&period;
+                    We know how to create a deliciously memorable
+                    experience that will please the host&comma;
+                    the guest of honour and of course&comma;
+                    your guests&#33;
+                   </p>
+                  
+                  <img src="img/christmasmodalimg.jpg" alt="Christmas">
+                  
+                  <h2>Drinks for mum to be</h2>
+                  
+                  <ul>
+                    <li>Pineapple, apricot and lime punch </li>
+                    <li>Strawberry apple punch </li>
+                  </ul>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Drinks for the guests</h2>
+                  
+                  <ul>
+                    <li>Champagne with guava and berries </li>
+                    <li>Cosmopolitans </li>
+                  </ul>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <h2>Savouries</h2>
+                  
+                  <ul>
+                    <li>Pork and fennel sausage rolls </li>
+                    <li>Sweet corn fritters with avocado salsa </li>
+                    <li>Chicken and almond ribbon sandwiches</li>
+                    <li>Baby lamb and mint meat pies </li>
+                    <li>Prawn and dill sandwiches</li>
+                  </ul>
+                  <h2>Cakes&frasl;sweets</h2>
+                  <ul>
+                    <li>Chocolate chunk and raspberry brownies </li>
+                    <li>Coffee meringue kisses </li>
+                    <li>Mini scones with raspberry jam
+                     and vanilla bean mascarpone</li>
+                    <li>Passionfruit layer cake </li>
+                    <li>Pretty vanilla-bean cupcakes</li>
+                  </ul>
+                   
+                  <h2>To take home</h2>
+                  
+                  <ul>
+                    <li>Gingerbread people </li>
+                    <li>Melting moments </li>
+                  </ul>
+                  
+                  <p>For more entertaining ideas&comma;
+                    see the Menu plans collection</p>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default"
+                    data-dismiss="modal">Close
+                  </button>
+                </div><!--/modal-footer div -->
+              </div><!--/modal-content div -->
+            </div><!--/modal-dialog div -->
+          </div><!-- /christmasModal div  -->
+        </div><!-- /catering div  -->
+        
+        <!-- Services div  -->
+        <div id="services" class="container">
+          
+          <div class="title-page">
+              <h1 class="title">Our Services</h1>
+          </div>
+          
+          <article class="service-article">
+            
+            <img src="img/service.jpg" width="1200" height="700" alt="Random Name"><br>
+            
+            <p><img src="img/service1.jpg" class="img-right" ><i>O</i>ur 
+              homely environment with  traditional music will give you 
+              a pleasant and comfortable dining experience&period;We 
+              do catering for All occasions&comma; business &amp; 
+              personal events &#45; Wedding&comma; graduation 
+              parties&comma; Birthday parties&comma; Meeting 
+              and conference&comma; community events etc&period; 
+              Fast&#45;casual restaurants are similar to 
+              fast&#45;food restaurants&comma; but customers 
+              often perceive the food as healthier or of 
+              higher quality&period; The perception of 
+              healthier or higher&#45;quality food allows 
+              owners of fast&#45;casual restaurants to 
+              charge higher prices than fast&#45;food
+              restaurants&period; Customers usually 
+              order their food at the counter and sit 
+              down at a table to enjoy their meal&period; 
+              Of course&comma; fast&#45;casual restaurants 
+              give customers the option to order food to 
+              go&period; Many fast&#45;casual restaurants 
+              serve a specialized type of food&comma; such 
+              as Mexican&comma; Chinese or fresh&#45;baked 
+              fare&period; While a fast&#45;food restaurant 
+              may serve fried chicken meals&comma; a fast&#45;
+              casual place may serve roasted chicken&comma; 
+              vegetables and baked bread&period;
+            </p> 
+            
+            <p>
+              <img src="img/service2.jpg" class="img-left"><i>C</i>asual&#45;
+                dining restaurants offer food similar to fast&#45;casual
+                establishments but with a table&#45;service dining 
+                atmosphere&period; Most casual&#45;dining restaurants 
+                provide a family&#45;friendly environment&period; 
+                The menus at casual dining restaurants are usually 
+                more extensive than at fast&#45;casual places&period; 
+                Casual&#45;dining restaurants employ waiters who take
+                customers&apos; orders and serve the food&period; 
+                The prices of casual&#45;dining restaurants are
+                lower than at fine&#45;dining restaurants&comma; 
+                but a little more expensive than at fast&#45;casual
+                places&period; Customers usually order their 
+                food at the counter and sit down at a table 
+                to enjoy their meal&period;These restaurants 
+                may serve a variety of pastas&comma; chicken 
+                dishes and simple seafood dishes&period; 
+                Some have highly specialized menus&comma; 
+                but others serve a broad range of cuisine&period;
+                While a fast&#45;food restaurant may serve fried 
+                chicken meals&comma; a fast-casual place may 
+                serve roasted chicken&comma; vegetables 
+                and baked bread&period;
+            </p> 
+            
+            <p>
+              <img src="img/service3.jpg" class="img-right"><i>F</i>ine-dining 
+                restaurants usually come with the most elaborate menus 
+                and expensive prices&period; Owners of fine&#45;
+                dining restaurants want to present an atmosphere 
+                of elegance and grace&period; Many require customers 
+                to make reservations to dine&period; Some restaurants
+                enforce a certain dress code&comma; while others do 
+                not&period; Fine&#45;dining restaurants employ chefs 
+                who attended culinary schools and possess many years 
+                of experience&period; Customers usually order their 
+                food at the counter and sit down at a table to enjoy 
+                their meal&period;Most customers do not mind paying
+                the expensive prices because of the perceived value
+                they receive from eating at fine-dining 
+                restaurants&period; Some restaurants offer five-course 
+                meals and an expensive and expansive wine list&period; 
+                While a fast&#45;food restaurant may serve fried 
+                chicken meals&comma; a fast&#45;casual place may serve 
+                roasted chicken&comma;vegetables and baked bread&period;
+            </p> 
+          </article>
+        </div><!-- /services div  -->
+    
+        <!-- gallery div  -->
+        <div id="gallery" class="container text-center">
+          
+          <div class="title-page">
+              <h1 class="title">Gallery</h1>
+          </div>
+          
+          <div class="gallery">
+            
+            <a rel="lightbox[group]" href="img/gallery1.jpg">
+              <img class="group1 span3"src="img/gallery1.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery2.jpg">
+              <img class="group1 span3" src="img/gallery2.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/pics/food11.jpg">
+              <img class="group1 span3" src="img/pics/food11.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/pics/food12.jpg">
+              <img class="group1 span3" src="img/pics/food12.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery3.jpg">
+              <img class="group1 span3" src="img/gallery3.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery10.jpg">
+              <img class="group1 span3" src="img/gallery10.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery5.jpg">
+              <img class="group1 span3" src="img/gallery5.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery4.jpg">
+              <img class="group1 span3" src="img/gallery4.jpg" />
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery6.jpg">
+              <img class="group1 span3" src="img/gallery6.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery7.jpg">
+              <img class="group1 span3" src="img/gallery7.jpg" />
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery8.jpg">
+              <img class="group1 span3" src="img/gallery8.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery9.jpg">
+              <img class="group1 span3" src="img/gallery9.jpg"/>
+            </a>
+          
+             <a rel="lightbox[group]" href="img/gallery11.jpg">
+              <img class="group1 span3" src="img/gallery11.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery12.jpg">
+              <img class="group1 span3" src="img/gallery12.jpg"/>
+            </a>
+            
+            <a rel="lightbox[group]" href="img/gallery14.jpg">
+              <img class="group1 span3" src="img/gallery14.jpg"/>
+            </a>
+            
+           
+          </div><!--end div -->
+        
+        </div><!-- /gallery div  -->
+    
+        <!-- contact div  -->
+        <div id="contact" class="container text-center">
+        
+          <div class="title-page">
+            <h1 class="title">Contact Us</h1>
+          </div>
+        
+          <!-- Using the same Class feedback for both contact Us and feedback -->
+          <section class="feedback clearfix">
+            
+            <div class="feedback">
+              <p><span class="glyphicon glyphicon-map-marker"></span>Sydney&comma;Australia</p>
+              <p><span class="glyphicon glyphicon-phone"></span>+61 450267307</p>
+              <p><span class="glyphicon glyphicon-envelope"></span>teju@mail&period;com</p>
+              <img src="img/contactus1.jpg" />
+              <img src="img/contactus.jpg" />
+              <img src="img/contactus3.jpg" />
+            </div>
+            
+            <div class="feedback cnt_enquiry">
+              <form method="post" id="conForm" name="conForm" 
+                action="//formspree.io/suganya.diwakar@gmail.com">
+                
+                <div class="alerts" id="alertContact" ></div>
+                
+                <i>*</i><input type="text"  
+                       placeholder="Name" 
+                id="conName" class="textField" name="conName" 
+                required="required" />
+                
+                <input type="email"
+                       placeholder="Email" 
+                       id="conEmail"
+                       class="emailField" 
+                       name="conEmail"
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                       required="required" />
+                
+                <input type="tel"  placeholder="Contact No"
+                id="conNum" class="emailField" name="conNum"
+                maxlength="10"
+                pattern="[0-9]{10}"
+                required="required" />
+                
+                <input type="text" placeholder="Message"
+                 id="conMsg" class="textField" name="conMsg" 
+                 required="required"/>
+                
+                <textarea  placeholder="comments/suggestions" 
+                id="conComments" name="conComments" 
+                required="required"/></textarea>
+                
+                <input type="submit" class="btn" value="Submit" id="submit-btn-contact"/>
+              </form>
+            </div>
+          </section>
+          <div class="googleMap" id="googleMap"></div>
+        </div><!-- /contact div  -->
+      
+        <!-- feedback div  -->
+        <div id="feedback" class="container text-center">
+          
+          <div class="title-page">
+            <h1 class="title">Feed Back</h1>
+          </div>
+          
+          <!-- Using the same Class feedback for both contact Us and feedback -->
+          <section class="feedback clearfix">
+            
+            <div class="feedback">
+              <p><span class="glyphicon glyphicon-map-marker"></span>Sydney&comma;Australia</p>
+              <p><span class="glyphicon glyphicon-phone"></span> +61 450267307</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> teju@mail&period;com</p>
+              <img src="img/feedback1.jpg" />
+              <img src="img/feedback.jpg" />
+              <img src="img/feedback3.jpg" />
+            </div>
+            
+            <div class="feedback cnt_enquiry">
+              <form method="post" id="feedForm" name="feedForm" 
+              action="//formspree.io/suganya.diwakar@gmail.com" >
+                
+                <div class="alerts" id="alert" ></div>
+                  
+                  <input type="text"  placeholder="Name" id="feedName"
+                   class="textField" name="feedName" required="required"/>
+                  
+                  <input type="email"  placeholder="Email" id="feedEmail"
+                   class="emailField" name="feedEmail"required="required" />
+                  
+                  <input type="phone"  placeholder="Contact No" id="feedNum"
+                   class="emailField" name="feedNum" required="required"/>
+                  
+                  <input type="text" class="textField" 
+                  placeholder="What food item did you like" 
+                  id="feedLike" name="feedLike" required="required" />
+                  
+                  <textarea  placeholder="comments/suggestions" id="feedMsg" 
+                  name="feedMsg" required="required"/></textarea>
+                  
+                  <input type="submit" class="btn" value="Submit" id="submit-btn"/>
+              </form>
+            </div>
+          </section>
+        </div><!-- /feedback div  -->
+        
+      <!-- calling google map script -->
+      <script src="http://maps.googleapis.com/maps/api/js"></script>
+      </main><!-- /main  -->
+  
+      <footer class="site-footer">
+        &copy; Copyright 2015&period; Teju&apos;s Restaurant
+	    </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>   
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/formValidate.js"></script>  
+  
+  </body>
+</html>
