@@ -17,27 +17,34 @@ $(document).ready(function()
 		var feedMsg = $('#feedMsg').val();
 		//Checking whether all the fields are entered
 		if(feedName === "" || feedName === " ") {
-		 	dispAlert('alert',"Please Enter the name"); 
+		 	dispAlert('alert',"Please Enter the name");
+		 	feedName.focus(); 
 		 	return false;
 		}
 		else if(feedEmail === "" || feedEmail === " ") {
 			dispAlert('alert',"Please Enter the mail"); 
+			feedEmail.focus();
 		 	return false; 
 		}
-		else if(feedNum === "" || feedNum === " ") { 
-			dispAlert('alert',"Please Enter the Contact No"); 
-			return false;  
-		}
+		
 		else if(feedLike === "" || feedLike === " ") { 
 			dispAlert('alert',"Please Enter What food item did you enjoy most during your visit"); 
+			feedLike.focus();
 			return false;
 		}
 		else if(feedMsg === "" || feedMsg === " "){
 			dispAlert('alert',"Please Enter the comments"); 
+			feedMsg.focus();
 			return false;  
-		}//More validation to be done to check whether the user enters only number in the phone column and email validation.
+		}
+		else if(feedNum === "" || feedNum === " ") { 
+			dispAlert('alert',"Please Enter the Contact No"); 
+			feedNum.focus();
+			return false;  
+		}
 		else{
 			removeAlert('alert');
+			alert("submitted successfully");
 		}
 		return false;
 	}

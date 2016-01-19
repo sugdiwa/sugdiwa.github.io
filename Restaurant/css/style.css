@@ -179,7 +179,6 @@ p i:first-child {
   display: inline-block;
   width: 480px;
   margin-right: 24px;
-  
   height: 42px;
   line-height: 74px;
   vertical-align: middle;
@@ -194,7 +193,6 @@ p i:first-child {
   overflow-y: initial !important
 }
 .modal-content{
-  
   color:#d5d5d5;
 }
 #birthdaymodal{
@@ -243,7 +241,15 @@ p i:first-child {
 #catering img{
   max-width: 100%;
 }
+.circle{
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
 .modal-body img{
+  
   max-width: 100%;
 }
 .modal-body p{
@@ -303,8 +309,25 @@ p i:first-child {
   border-radius: 0px;
   border: 5px solid #d5d5d5;
 }
+/*---------------------------------------------------------------
+   contact Us 
+-----------------------------------------------------------------*/
+.contacts {
+  width:100%;
+}
+.contacts img{
+  width: 1000px;
+  height: 600px;
+  border-radius: 850px;
+  -webkit-border-radius: 550px;
+  -moz-border-radius: 550px;
+  max-width: 100%;
+}
+.contact p{
+  font-size: 16px;
 
-
+  font-weight: 700;
+}
 /*---------------------------------------------------------------
    contact Us and Feed back css
 -----------------------------------------------------------------*/
@@ -434,7 +457,9 @@ Responsive Styles
   #menutype {
     width:260px;
   }
-
+  .contact img{
+  max-width: 100%;
+}
   .navbar ul { 
     display: block;
   }
@@ -470,7 +495,9 @@ Responsive Styles
   #menutype {
     width:360px;
   }
-
+  .contacts img{
+  max-width: 100%;
+}
   .navbar ul { 
     display: block;
   }
@@ -495,6 +522,9 @@ Responsive Styles
   .cnt_enquiry textarea{
     width:400px;
   }
+  .contacts img{
+  max-width: 100%;
+}
   .menus .menu {
     border-bottom: none;
     width: 25%;

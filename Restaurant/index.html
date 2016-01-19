@@ -13,7 +13,7 @@
  
   </head>
   
-  <body>
+  <body onLoad="slide('image1',arr);">
     <div class="wrapper">
     	<header class="masthead" id="myPage" data-spy="scroll"
         data-target=".navbar" data-offset="50" >
@@ -148,26 +148,29 @@
             <div class="menu">
               <h3>Prawn Fry</h3>
               <img src="img/prawn.jpg" />
-              <p><i>P</i>rawn fry is a fermented crepe made from rice 
-                batter and black lentils&period; It is a staple dish in 
-                South Indian states&period;</p>
+              <p><i>P</i>rawn fry are a really quick&comma;
+               easy and tasty way to cook prawns&period;
+                Try some of these great stir fry prawn recipes&period;</p>
               <p><a href="#menu" class="btn">View details</a></p>
             </div>
             
             <div class="menu">
               <h3>Chicken 65</h3>
               <img src="img/chicken65.jpg" />
-              <p><i>C</i>hicken 65 is a popular and tasty treat served 
-                throughout Israel.</p>
+              <p><i>C</i>hicken 65  is a spicy&comma;
+                deep&hyphen;fried chicken dish originating from
+                Chennai&comma; India&comma; as an entrée&comma;or 
+                quick snack&period;</p>
               <p><a href="#menu" class="btn">View details</a></p>
             </div>
             
             <div class="menu">
               <h3>Shrimp </h3>
               <img src="img/shrimp.jpg" />
-              <p><i>S</i>hrimp  simple sausage roll recipe 
-                is perfect to whip up for a party or BBQ when 
-                tasty finger food is in order&#33;</p>
+              <p><i>S</i>hrimp  Easy&comma; versatile&comma;
+               and quick to cook&comma; shrimp is a 
+               high&hyphen;protein&comma; low&hyphen;calorie 
+               alternative to other meats and fish&period;</p>
               <p><a href="#menu" >View details</a></p>
             </div>
           </section><!-- /section   -->
@@ -382,30 +385,30 @@
           <ul class="nav nav-pills ">
             <li>
               <a href="#birthday" data-toggle="modal" 
-                data-target="#birthDayModal"> <p class="modaltitle">Birth Day Event</p>
-                <img src="img/birthdaymodal1.jpg"  
-                  alt="Birthday" width="1200" height="600" >
+                data-target="#birthDayModal"> 
+                <p class="modaltitle">Birth Day Event</p>
+                <img src="img/birthdaymodal1.jpg"  class="circle"
+                  alt="Birthday"  >
                </a>
             </li>
             <li>
               <a href="#engagement" data-toggle="modal" 
-                data-target="#engagementModal"><p class="modaltitle">Engagement and Wedding</p>
-                <img src="img/weddingmodal.jpg"  alt="wedding" 
-                width="1200" height="600">
+                data-target="#engagementModal">
+                <p class="modaltitle">Engagement and Wedding</p>
+                <img src="img/weddingmodal.jpg"  alt="wedding"  class="circle" >
               </a>
             </li>
             <li>
               <a href="#babyShowerModal" data-toggle="modal" 
-              data-target="#babyShowerModal"><p class="modaltitle">Baby Shower</p>
-              <img src="img/babymodal.jpg"  alt="baby shower"
-               width="1200" height="600">
+              data-target="#babyShowerModal">
+              <p class="modaltitle">Baby Shower</p>
+              <img src="img/babymodal.jpg"  alt="baby shower"  class="circle">
              </a>
             </li>
             <li>
               <a href="#christmasModal" data-toggle="modal" 
                 data-target="#christmasModal"><p class="modaltitle">Christmas</p>
-              <img src="img/christmasmodal1.jpg"  alt="Christmas" 
-                width="1200" height="600">
+              <img src="img/christmasmodal1.jpg"  alt="Christmas"  class="circle" >
               </a>
             </li>
           </ul>
@@ -820,7 +823,8 @@
             
             <img src="img/service.jpg" width="1200" height="700" alt="Random Name"><br>
             
-            <p><img src="img/service1.jpg" class="img-right" ><i>O</i>ur 
+            <p><img src="img/casualservice.jpg" width="300" 
+                height="200" class="img-right" ><i>O</i>ur 
               homely environment with  traditional music will give you 
               a pleasant and comfortable dining experience&period;We 
               do catering for All occasions&comma; business &amp; 
@@ -849,7 +853,8 @@
             </p> 
             
             <p>
-              <img src="img/service2.jpg" class="img-left"><i>C</i>asual&#45;
+              <img src="img/service4.jpg" width="300" height="200" 
+              class="img-left"><i>C</i>asual&#45;
                 dining restaurants offer food similar to fast&#45;casual
                 establishments but with a table&#45;service dining 
                 atmosphere&period; Most casual&#45;dining restaurants 
@@ -875,7 +880,8 @@
             </p> 
             
             <p>
-              <img src="img/service3.jpg" class="img-right"><i>F</i>ine-dining 
+              <img src="img/service6.jpg" width="300" height="200"
+               class="img-right"><i>F</i>ine-dining 
                 restaurants usually come with the most elaborate menus 
                 and expensive prices&period; Owners of fine&#45;
                 dining restaurants want to present an atmosphere 
@@ -979,64 +985,19 @@
             <h1 class="title">Contact Us</h1>
           </div>
         
-          <!-- Using the same Class feedback for both contact Us and feedback -->
-          <section class="feedback clearfix">
+          <!-- Using the  Class contacts for contact Us  -->
+          <section class="contacts clearfix">
             
-            <div class="feedback">
-              <p><span class="glyphicon glyphicon-map-marker"></span>Sydney&comma;Australia</p>
-              <p><span class="glyphicon glyphicon-phone"></span>+61 450267307</p>
-              <p><span class="glyphicon glyphicon-envelope"></span>teju@mail&period;com</p>
-              <img src="img/contactus1.jpg" />
-              <img src="img/contactus.jpg" />
-              <img src="img/contactus3.jpg" />
+            <div id="img"><img id="image1"  />
             </div>
-            
-            <div class="feedback cnt_enquiry">
-              <form method="post" id="conForm" name="conForm" 
-                action="//formspree.io/suganya.diwakar@gmail.com">
-                
-                <div class="alerts" id="alertContact" ></div>
-                
-                <input type="text"  
-                       placeholder="Name" 
-                       id="conName" 
-                       class="textField" 
-                       name="conName" 
-                       required="required" />
-                
-                <input type="email"
-                       placeholder="Email" 
-                       id="conEmail"
-                       class="emailField" 
-                       name="conEmail"
-                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-                       required="required" />
-                
-                <input type="tel"  
-                       placeholder="Contact No"
-                       id="conNum" 
-                       class="emailField" 
-                       name="conNum"
-                       maxlength="10"
-                       pattern="[0-9]{10}"
-                       required="required" />
-                
-                <input type="text" 
-                       placeholder="Message"
-                       id="conMsg" 
-                       class="textField" 
-                       name="conMsg" 
-                       required="required"/>
-                
-                <textarea  placeholder="comments/suggestions" 
-                           id="conComments" name="conComments" 
-                           required="required"/></textarea>
-                
-                <input type="submit" 
-                       class="btn" 
-                       value="Submit" 
-                       id="submit-btn-contact"/>
-              </form>
+
+            <div class="contact">
+              <p>We are hear to answer any questions you may have&period;<br>
+                Reach Out to us and we will respond as soon as we can&period;
+              </p>
+              <p><span class="glyphicon glyphicon-envelope"></span>teju@mail&period;com</p>
+              <p><span class="glyphicon glyphicon-phone"></span>+61 450267307</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span>Sydney&comma;Australia</p>
             </div>
           </section>
          
@@ -1051,7 +1012,7 @@
             <h1 class="title">Feed Back</h1>
           </div>
           
-          <!-- Using the same Class feedback for both contact Us and feedback -->
+          <!-- Using the  Class feedback for feedback -->
           <section class="feedback clearfix">
             
             <div class="feedback">
@@ -1065,7 +1026,7 @@
             
             <div class="feedback cnt_enquiry">
               <form method="post" id="feedForm" name="feedForm" 
-              action="//formspree.io/suganya.diwakar@gmail.com" >
+              action="http://formspree.io/suganya.diwakar@gmail.com" >
                 
                 <div class="alerts" id="alert" ></div>
                   
@@ -1081,13 +1042,16 @@
                          id="feedEmail"
                          class="emailField" 
                          name="feedEmail"
+                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
                          required="required" />
                   
                   <input type="phone"  
                          placeholder="Contact No" 
                          id="feedNum"
                          class="emailField" 
+                         pattern="^([0|\+[0-9]{1,5})?([1-9][0-9]{9})$"
                          name="feedNum" 
+                         maxlength="10"
                          required="required"/>
                   
                   <input type="text" 

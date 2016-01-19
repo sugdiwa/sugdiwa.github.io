@@ -25,6 +25,40 @@ window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 s.parentNode.insertBefore(g,s)}(document,'script'));
 
+var arr = [];
+  arr[0]= new Image();
+  arr[0].src = "img/contactimg1.jpg";
+
+  arr[1]= new Image();
+  arr[1].src = "img/contactimg2.jpg";
+
+  arr[2]= new Image();
+  arr[2].src = "img/contactimg3.jpg";
+  
+  arr[3]= new Image();
+  arr[3].src = "img/contactimg6.jpg";
+ 
+  arr[4]= new Image();
+  arr[4].src = "img/contactimg7.jpg";
+  
+  arr[5]= new Image();
+  arr[5].src = "img/contactimg8.jpg";
+  
+  arr[6]= new Image();
+  arr[6].src = "img/contactimg9.jpg";
+  
+  arr[7]= new Image();
+  arr[7].src = "img/contactimg10.jpeg";
+  var i=0;
+  function slide(){
+    document.getElementById("image1").src= arr[i].src;
+    i++;
+    if(i==arr.length){
+        i=0;
+    }
+    setTimeout(function(){ slide(); },8000);
+  }
+
 $(document).ready(function(){
 
   $('#menutype').on('change',changeMenu);
