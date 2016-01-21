@@ -10,7 +10,7 @@ html {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body{
 	color:rgb(0, 0, 0);
-	font-family: 'MV Boli',"Comic Sans MS", 'cursive', sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 }
 h1{
   font-size: 1.42rem;/*20 px*/
@@ -223,7 +223,7 @@ p i:first-child {
 }
 .modal-title {
   font-size: 16px;
-  font: Trebuchet;
+ 
   font-style: italic;
   font-weight: 600;
 }
@@ -233,7 +233,7 @@ p i:first-child {
 }
 .modal-body h2{
   font-size: 14px;
-  font: verdana;
+  
   font-style: italic;
   font-weight: 600;
 }
@@ -252,13 +252,13 @@ p i:first-child {
 }
 .modal-body p{
   font-size: 14px;
-  font:Webdings;
+  
   font-weight: 100;
 }
 .modal-body li{
   list-style-type: none; 
   font-size: 14px;
-  font:Webdings;
+  
   font-weight: 100;
 }
 
@@ -269,7 +269,6 @@ p i:first-child {
   padding-left: 10px;
   border: 0px solid  #d5d5d5;
   font-size: 13px;
-  font:Webdings;
   font-weight: 100;
 }
 .service-article h4{
@@ -322,8 +321,8 @@ p i:first-child {
   width: 1000px;
   height: 600px;
   border-radius: 850px;
-  -webkit-border-radius: 550px;
-  -moz-border-radius: 550px;
+  -webkit-border-radius: 850px;
+  -moz-border-radius: 850px;
   max-width: 100%;
 }
 .contact p{
