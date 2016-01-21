@@ -11,6 +11,7 @@ html {
 body{
 	color:rgb(0, 0, 0);
 	font-family: 'Indie Flower', cursive;
+  font-weight: 600;
 }
 h1{
   font-size: 1.42rem;/*20 px*/
@@ -45,7 +46,7 @@ a{
   margin-bottom: 0;
   background-color: #2d2d30;
   border: 0;
-  font-size: 11px !important;
+  font-size: 14px !important;
   letter-spacing: 4px;
   opacity: 0.9;
 }
@@ -92,7 +93,7 @@ a{
 }
 .carousel-caption h3 {
   color: #000; !important;
-  font-size: 36px;
+  font-size: 40px;
   font-style: italic;
   font-weight: 800;
 }
@@ -127,7 +128,7 @@ a{
   margin: 0 auto 10px;
 }
 .title-page .title {
-  font-size: 11px;
+  font-size: 16px;
   margin: 0 0 25px 0;
   color: #fff;
   text-transform: uppercase;
@@ -163,15 +164,15 @@ p i:first-child {
 .menus .menu p {
   margin: 10px 0;
   color:#000;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .menus .menu h3{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 #menutype {
-  font-size: 14px;
+  font-size: 16px;
   background: white;
   border: 1px solid #111;
   padding: 0px 30px;
@@ -218,7 +219,7 @@ p i:first-child {
   background-repeat: no-repeat;
 }
 .modaltitle{
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
 }
 .modal-title {
@@ -232,44 +233,40 @@ p i:first-child {
   overflow-y: auto;
 }
 .modal-body h2{
-  font-size: 14px;
-  
+  font-size: 16px;
+  text-decoration: underline;
   font-style: italic;
   font-weight: 600;
 }
 #catering img{
   max-width: 100%;
 }
+.cateringlist{
+  list-style-type: none;
+}
 .circle{
-  width: 600px;
-  height: 600px;
-  border-radius: 300px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  width: 1400px;
+  height: 700px;
 }
 .modal-body img{
   max-width: 100%;
 }
 .modal-body p{
-  font-size: 14px;
-  
-  font-weight: 100;
+  font-size: 16px;
 }
 .modal-body li{
   list-style-type: none; 
-  font-size: 14px;
-  
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 /*---------------------------------------------------
   Services  css 
 ----------------------------------------------------*/
 .service-article p{
-  padding-left: 10px;
   border: 0px solid  #d5d5d5;
-  font-size: 13px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 600;
 }
 .service-article h4{
   font-size: 20px;
@@ -318,11 +315,8 @@ p i:first-child {
   width:100%;
 }
 .contacts img{
-  width: 1000px;
-  height: 600px;
-  border-radius: 850px;
-  -webkit-border-radius: 850px;
-  -moz-border-radius: 850px;
+  width: 1200px;
+  height: 700px;
   max-width: 100%;
 }
 .contact p{
@@ -454,12 +448,11 @@ Responsive Styles
   #catering img{
     max-width: 100%;
   }
-
   #menutype {
     width:260px;
   }
   .contact img{
-  max-width: 100%;
+    max-width: 100%;
   }
   .navbar ul { 
     display: block;

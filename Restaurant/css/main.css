@@ -3,7 +3,7 @@
    Gallery Css
    ========================================================================== */
 body {
-  background: url('../img/bgrestaurant.jpg') repeat;
+  background: #E0E8F0;
 }
 .centered {
   margin: auto auto;
