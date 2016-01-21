@@ -7,10 +7,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Sans-Serif);
 body{
 	color:rgb(0, 0, 0);
-	font-family: "Comic Sans MS", sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 }
 h1{
   font-size: 1.42rem;/*20 px*/
