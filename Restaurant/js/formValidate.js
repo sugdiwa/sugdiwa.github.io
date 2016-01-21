@@ -39,10 +39,10 @@ $(document).ready(function()
 			feedMsg.focus();
 			return false;  
 		}
-		
 		else{
 			removeAlert('alert');
 			alert("submitted successfully");
+			return true;
 		}
 		return false;
 	}
