@@ -7,7 +7,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-@import url(http://fonts.googleapis.com/css?family=Sans-Serif);
+@import url(http://fonts.googleapis.com/css?family=Comic+Sans+MS);
 body{
 	color:rgb(0, 0, 0);
 	font-family: 'Comic Sans MS', sans-serif;
