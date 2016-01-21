@@ -2,14 +2,16 @@
 Base css
 --------------------------------*/
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body{
 	color:rgb(0, 0, 0);
-	font:normal 14px/20px Arial,verdana,serif;
+	
+  font-family: 'MV Boli',serif;
 }
 h1{
   font-size: 1.42rem;/*20 px*/
@@ -41,7 +43,6 @@ a{
  header
 ----------------------------------------------------*/
 .navbar {
-  
   margin-bottom: 0;
   background-color: #2d2d30;
   border: 0;
@@ -50,60 +51,58 @@ a{
   opacity: 0.9;
 }
 .navbar li a, .navbar .navbar-brand { 
-    color: #d5d5d5 !important;
+  color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
 .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
+  color: #fff !important;
+  background-color: #29292c !important;
 }
 .navbar-default .navbar-toggle {
-    border-color: transparent;
+  border-color: transparent;
 }
 .nav-open #nav-toggle span:nth-child(1) {
-    top: 10px;
-    width: 0%;
-    left: 50%;
+  top: 10px;
+  width: 0%;
+  left: 50%;
 }
-
 .nav-open #nav-toggle span:nth-child(2) {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
 .nav-open #nav-toggle span:nth-child(3) {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-
 .nav-open #nav-toggle span:nth-child(4) {
-    opacity: 0;
-    top: 10px;
-    width: 0%;
-    left: 50%;
+  opacity: 0;
+  top: 10px;
+  width: 0%;
+  left: 50%;
 }
 .nav-open .nav {
-    display: block;
+  display: block;
 }
 
 /*---------------------------------------------------
  Home Page css
 ----------------------------------------------------*/
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
+  width: 100%; /* Set width to 100% */
+  margin: auto;
 }
 .carousel-caption h3 {
-  color: yellow; !important;
+  color: #000; !important;
   font-size: 36px;
   font-style: italic;
   font-weight: 800;
 }
 .carousel-caption p{
   font-size: 20px;
+  color: #fff; !important;
 }
 .carousel-indicators li{
-  background-color: yellow;
+  background-color: #ccccff;
   border-radius: 5px;
 }
 
@@ -116,21 +115,23 @@ a{
   width: 100%;
 }
 .title-page {
+  background-color: #2d2d30;
+  border: 0;
+  letter-spacing: 4px;
+  opacity: 0.9;
   text-align: center;
+  border-radius: 100px;
   margin-bottom: 100px;
   position: relative;
   right: -10px;
   width: 420px;
   margin: 0 auto 10px;
-  background: #5B5857;
 }
 .title-page .title {
-  border-top: 1px solid rgb(0,0,0); 
-  font-size: 24px;
+  font-size: 11px;
   margin: 0 0 25px 0;
   color: #fff;
   text-transform: uppercase;
-  border-bottom: 1px solid rgb(0,0,0); 
 }
 
 /*Drop caps using pseudoclass  */
@@ -142,7 +143,13 @@ p i:first-child {
   padding-top:4px; 
   padding-right:8px; 
   padding-left:3px; 
-  
+}
+input[type=search] { 
+  color: black;  
+  text-align: left;
+  cursor: pointer;
+  display: block; 
+  width:40px;
 }
 
 /*---------------------------------------------------
@@ -164,15 +171,16 @@ p i:first-child {
   margin: 10px 0;
   color:#000;
   font-size: 14px;
-  font:Tahoma;
+  
+ 
 }
 
 .menus .menu h3{
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 #menutype {
-  
-  font-size: 20px;
+  font-size: 14px;
   background: white;
   border: 1px solid #111;
   padding: 0px 30px;
@@ -219,11 +227,11 @@ p i:first-child {
   background-repeat: no-repeat;
 }
 .modaltitle{
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 .modal-title {
-  font-size: 20px;
+  font-size: 16px;
   font: Trebuchet;
   font-style: italic;
   font-weight: 600;
@@ -233,7 +241,7 @@ p i:first-child {
   overflow-y: auto;
 }
 .modal-body h2{
-  font-size: 16px;
+  font-size: 14px;
   font: verdana;
   font-style: italic;
   font-weight: 600;
@@ -249,17 +257,16 @@ p i:first-child {
   -moz-border-radius: 150px;
 }
 .modal-body img{
-  
   max-width: 100%;
 }
 .modal-body p{
-  font-size: 16px;
+  font-size: 14px;
   font:Webdings;
   font-weight: 100;
 }
 .modal-body li{
   list-style-type: none; 
-  font-size: 16px;
+  font-size: 14px;
   font:Webdings;
   font-weight: 100;
 }
@@ -273,6 +280,11 @@ p i:first-child {
   font-size: 13px;
   font:Webdings;
   font-weight: 100;
+}
+.service-article h4{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
 .service-article img{
   max-width: 100%;
@@ -325,11 +337,10 @@ p i:first-child {
 }
 .contact p{
   font-size: 16px;
-
   font-weight: 700;
 }
 /*---------------------------------------------------------------
-   contact Us and Feed back css
+    Feed back css
 -----------------------------------------------------------------*/
 .feedback {
   float: right;
@@ -342,7 +353,7 @@ p i:first-child {
 .cnt_enquiry{
   margin:10px 0px 0px 50px;
 }
- .textField {
+.textField {
   margin-top: 15px;
   width:500px;
   height: 40px;
@@ -380,7 +391,7 @@ p i:first-child {
   text-align:center;
   font-size:18px;
   color:rgb(0,0,0);
-  border-radius:4px;
+  border-radius:100px;
   text-transform:uppercase;
   background-color: #d5d5d5;
   border: 3px solid  #5B5857;
@@ -431,17 +442,17 @@ Responsive Styles
     width:260px;
   }
   .feedback .feedback {
-    float: left;
+    float: none;
     width: 25%;
   }
   .cnt_enquiry .textField  {
-    width:170px;
+    width:200px;
   }
   .cnt_enquiry .emailField  {
-    width:170px;
+    width:200px;
   }
   .cnt_enquiry textarea{
-    width:170px;
+    width:200px;
   }
   .menus .menu {
     float: left;
@@ -451,7 +462,7 @@ Responsive Styles
     max-width: 100%;
   }
   #catering img{
-  max-width: 100%;
+    max-width: 100%;
   }
 
   #menutype {
@@ -459,11 +470,10 @@ Responsive Styles
   }
   .contact img{
   max-width: 100%;
-}
+  }
   .navbar ul { 
     display: block;
   }
-
 }
 
 /* Extra Small Devices, Phones */ 
@@ -489,19 +499,17 @@ Responsive Styles
     max-width: 100%;
   }
   #catering img{
-  max-width: 100%;
+    max-width: 100%;
   }
-
   #menutype {
     width:360px;
   }
   .contacts img{
-  max-width: 100%;
-}
+    max-width: 100%;
+  }
   .navbar ul { 
     display: block;
   }
-
 }
 
 /* Small Devices, Tablets */
@@ -523,8 +531,8 @@ Responsive Styles
     width:400px;
   }
   .contacts img{
-  max-width: 100%;
-}
+    max-width: 100%;
+  }
   .menus .menu {
     border-bottom: none;
     width: 25%;
@@ -536,8 +544,8 @@ Responsive Styles
     max-width: 100%;
   }
   #catering img{
-  max-width: 100%;
-}
+    max-width: 100%;
+  }
 }
 
 

@@ -37,7 +37,10 @@
                 <li><a href="#gallery">GALLERY</a></li>
                 <li><a href="#contact">CONTACT US</a></li>
                 <li><a href="#feedback">FEED BACK</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                <li><a  id="searchLink">
+                    <span class="glyphicon glyphicon-search"></span>
+                    </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -52,13 +55,15 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
 
             <div class="item active">
-              <img src="img/dosacarousel.jpg"  width="1200" height="700">
+              <img src="img/dosacarousel.jpg" width="1200" height="700">
               <div class="carousel-caption">
                 <h3>Dosa</h3>
                 <p>A Yummy Recipes for All</p>
@@ -66,7 +71,7 @@
             </div>
             
             <div class="item">
-              <img src="img/pizzacarousel.jpg"  width="1200"  height="700">
+              <img src="img/pizzacarousel.jpg" width="1200" height="700">
               <div class="carousel-caption">
                 <h3>Pizza</h3>
                 <p>A yummy Pizza </p>
@@ -74,7 +79,7 @@
             </div>
 
             <div class="item">
-              <img src="img/sataycarousel.jpg"  width="1200" height="700">
+              <img src="img/sataycarousel.jpg" width="1200" height="700">
               <div class="carousel-caption">
                 <h3>Satay</h3>
                 <p>A Yummy Satays</p>
@@ -82,7 +87,7 @@
             </div>
 
             <div class="item">
-              <img src="img/cherrycarousel.jpg"  width="1200"  height="700">
+              <img src="img/cherrycarousel.jpg" width="1200" height="700">
               <div class="carousel-caption">
                 <h3>cherry</h3>
                 <p>Finish your meal with a Cherry </p>
@@ -90,7 +95,7 @@
             </div>
             
             <div class="item">
-              <img src="img/strawberrycarousel.jpg"  width="1200" height="700">
+              <img src="img/strawberrycarousel.jpg" width="1200" height="700">
               <div class="carousel-caption">
                 <h3>Strawberry Rice Pudding</h3>
                 <p>A perfect Taste </p>
@@ -124,15 +129,15 @@
         	</div>
           
           <select id="menutype">
-            <option value="appetizer">appetizer</option>
+            <option value="appetizer">Appetizer</option>
             <option value="entree">Entree</option>
             <option value="rice">Rice</option>
             <option value="noodles">Noodles</option>
-            <option value="deserts">Deserts</option>
+            <option value="deserts">Desserts</option>
             <option value="juices">Juices</option>
           </select>
           
-          <!-- section for menu  -->
+          <!-- section for menu appetizer -->
           <section class="menus clearfix" id="appetizer" >
             
             <div class="menu">
@@ -142,7 +147,7 @@
                 been prepared by frying&period; Often&comma; the fish 
                 is covered in batter&comma; or flour&comma;  
                 spices before being fried&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:12.99$</a></p>
             </div>
             
             <div class="menu">
@@ -150,8 +155,9 @@
               <img src="img/prawn.jpg" />
               <p><i>P</i>rawn fry are a really quick&comma;
                easy and tasty way to cook prawns&period;
-                Try some of these great stir fry prawn recipes&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              Try some of these great stir fry prawn recipes&period;
+              A healthy recipe too &period;</p>
+              <p><a href="#menu" class="btn">Price:10.99$</a></p>
             </div>
             
             <div class="menu">
@@ -159,9 +165,9 @@
               <img src="img/chicken65.jpg" />
               <p><i>C</i>hicken 65  is a spicy&comma;
                 deep&hyphen;fried chicken dish originating from
-                Chennai&comma; India&comma; as an entrée&comma;or 
+                Chennai&comma; India&comma; as an entree&comma;or 
                 quick snack&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:13.99$</a></p>
             </div>
             
             <div class="menu">
@@ -171,10 +177,11 @@
                and quick to cook&comma; shrimp is a 
                high&hyphen;protein&comma; low&hyphen;calorie 
                alternative to other meats and fish&period;</p>
-              <p><a href="#menu" >View details</a></p>
+              <p><a href="#menu" >Price:14.99$</a></p>
             </div>
-          </section><!-- /section   -->
+          </section><!-- /section appetizer  -->
            
+           <!-- section for menu entree -->
           <section class="menus clearfix" id="entree" style="display:none">
             
             <div class="menu">
@@ -183,7 +190,7 @@
               <p><i>B</i>utter chicken is a fermented crepe made 
                 from rice batter and black lentils&period; 
                 It is a staple dish in South Indian states&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:11.99$</a></p>
             </div>
 
             <div class="menu">
@@ -194,7 +201,7 @@
                 and Malay&#41;The term &#39;canai&#39; comes from &#39;
                 channa&#39;&comma; a mixture of boiled chickpeas in a 
                 spicy gravy&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:10.99$</a></p>
             </div>
             
             <div class="menu">
@@ -205,7 +212,7 @@
                 Austrian in origin&#59; it was traditionally 
                 made with veal &#40;known as Wiener Schnitzel&#41;
                 or pork&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:12.99$</a></p>
             </div>
             
             <div class="menu">
@@ -214,163 +221,160 @@
               <p><i>T</i>his simple sausage roll recipe is 
                 perfect to whip up for a party or BBQ 
                 when tasty finger food is in order&#33;</p>
-              <p><a href="#menu" >View details</a></p>
+              <p><a href="#menu" >Price:13.99$</a></p>
             </div>
-          </section><!-- /section   -->
+          </section><!-- /section entree  -->
+
+          <!-- section for menu rice -->
           <section class="menus clearfix" id="rice" style="display:none">
             
             <div class="menu">
               <h3>Chicken Fried Rice</h3>
               <img src="img/chickenfriedrice.jpg" />
-              <p><i>C</i>hicken Fried Rice is a fermented 
-                crepe made from rice batter and black 
-                lentils&period; It is a staple dish in 
-                South Indian states&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><i>C</i>hicken Fried Rice is  
+                guaranteed to keep the hungry hordes happy&period; 
+                Combine soy sauce&comma;
+                sweet chilli sauce and oyster 
+                 sauce in a small bowl</p>
+              <p><a href="#menu" class="btn">Price:14.99$</a></p>
             </div>
 
             <div class="menu">
               <h3>Szechwan Fried Rice</h3>
               <img src="img/szechwanfriedrice.jpg" />
-              <p><i>R</i>oti canai or roti chennai  is a dish 
-                unique to Malaysia &period; Roti means bread 
-                in Hindi &#40;and Malay&#41;The term &#39;canai&#39; 
-                comes from &#39;channa&#39;&comma; a mixture 
-                of boiled chickpeas in a spicy gravy&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><i>S</i>zechwan Fried Rice  is a dish 
+                unique to Malaysia &period;if you crave for something 
+                spicy for lunch or dinner&comma; then schezwan 
+                fried rice is a good option&period;
+              </p>
+              <p><a href="#menu" class="btn">Price:11.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Shrimp Fried Rice</h3>
               <img src="img/shrimpfriedrice.jpg" />
               <p><i>S</i>hrimp Fried Rice is a popular 
-                and tasty treat served throughout Israel. 
-                Schnitzel is Austrian in origin&#59; it was 
-                traditionally made with veal &#40;known as 
-                Wiener Schnitzel&#41;or pork&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+                and tasty treat served throughout Israel&period; 
+               This homemade version is so much healthier&comma; 
+               cheaper and tastes a million times better&period;</p>
+              <p><a href="#menu" class="btn">Price:10.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Biryani</h3>
               <img src="img/chickenbiryani.jpg"  />
-              <p><i>T</i>his simple sausage roll recipe 
-                is perfect to whip up for a party or BBQ 
-                when tasty finger food is in order&#33;</p>
-              <p><a href="#menu" >View details</a></p>
+              <p><i>B</i>iryani is now savoured in all 
+                parts of India&comma; this version is a blending 
+                of Mughal and Andhra Pradesh cuisine&period;</p>
+              <p><a href="#menu" >Price:13.99$</a></p>
             </div>
-          </section><!-- /section   -->
+          </section><!-- /section Rice  -->
           
+          <!-- section for menu noodles -->
           <section class="menus clearfix" id="noodles" style="display:none">
             
             <div class="menu">
               <h3>Chicken Noodles</h3>
               <img src="img/chickennoodles.jpg" />
-              <p><i>C</i>hicken Noodles is a fermented crepe 
-                made from rice batter and black lentils&period; 
-                It is a staple dish in South Indian states&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><i>C</i>hicken Noodles is hassle free
+               and extremely economical&comma; 
+               from BBC Good Food&period;Whether it&apos;s grilled&comma;
+               sauteed&comma; baked&comma; or roasted&comma; 
+               this is your guide 
+               to the ultimate weeknight wonder&period; </p>
+              <p><a href="#menu" class="btn">Price:12.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Szechwan Noodles</h3>
               <img src="img/szechwannoodles.jpg" />
-              <p><i>S</i>zechwan Noodles or roti chennai  is 
-                a dish unique to Malaysia &period; Roti means 
-                bread in Hindi &#40;and Malay&#41;
-                The term &#39;canai&#39; comes from &#39;
-                channa&#39;&comma; a mixture of boiled 
-                chickpeas in a spicy gravy&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><i>S</i>zechwan Noodles were quite the 
+                thing in the seventies&period; around that time&comma; 
+                pasta was also coming into its own&period; </p>
+              <p><a href="#menu" class="btn">Price:14.99$</a></p>
             </div>
-          </section><!-- /section   -->
+          </section><!-- /section noodles  -->
           
-          <!-- section for menu  -->
+          <!-- section for menu desserts  -->
           <section class="menus clearfix" id="deserts" style="display:none">
             
             <div class="menu">
               <h3>Rasa Malai</h3>
               <img src="img/rasamalai.jpg" />
-              <p><i>R</i>asa malai or roti chennai  is a 
-                dish unique to Malaysia &period; Roti means 
-                bread in Hindi &#40;and Malay&#41;The term &#39;
-                canai&#39; comes from &#39;channa&#39;&comma; 
-                a mixture of boiled chickpeas in a spicy gravy&period;</p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><i>R</i>asa malai one of the popular 
+                bengali sweet of spongy cottage cheese 
+                balls aka rasgullas soaked in thickened &amp; 
+                sweetened milk&period; </p>
+              <p><a href="#menu" class="btn">Price:8.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Gulab jamun</h3>
               <img src="img/gulabjamun.jpg" />
-              <p><i>G</i>ulab jamun is a fermented 
-                crepe made from rice batter and 
-                black lentils&period; It is a staple 
-                dish in South Indian states&period;
+              <p><i>G</i>ulab jamun is a milk&hyphen;solids&hyphen;based 
+                dessert&comma;popular in countries of 
+                South Asia such as India&comma; 
+                Sri Lanka&comma; Nepal&comma;Pakistan and Bangladesh&period;
+                A popular indian dessert of fried dumplings in 
+                rose scented sugar syrup&period;
               </p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:7.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Payasam</h3>
               <img src="img/payasam.jpg" />
-              <p><i>P</i>ayasam is a popular and tasty 
-                treat served throughout Israel&period; Schnitzel
-                 is Austrian in origin&#59; it was 
-                 traditionally made with veal &#40;known as 
-                 Wiener Schnitzel&#41;or pork&period;
+              <p><i>P</i>aruppu Payasam is a one of many verities of 
+                payasams in south India&comma; especially 
+                popular in Kerala and Tamilnadu&period; 
                </p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:9.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Rice Kheer</h3>
               <img src="img/desserts.jpg" />
-              <p><i>R</i>ice Kheer simple sausage roll 
-                recipe is perfect to whip up for a party 
-                or BBQ when tasty finger food is in order&#33;
+              <p><i>R</i>ice kheer is one of the most popular kheer
+               recipe made in north india along with seviyan kheer 
+               and phirni&period;
               </p>
-              <p><a href="#menu" >View details</a></p>
+              <p><a href="#menu" >Price:9.99$</a></p>
             </div>
-          </section><!-- /section   -->
+          </section><!-- /section desserts  -->
           
-           <!-- section for menu  -->
+           <!-- section for menu juices -->
           <section class="menus clearfix" id="juices" style="display:none">
             
             <div class="menu">
               <h3>Orange juice</h3>
               <img src="img/orange.jpg" />
-              <p><i>O</i>range juice or roti chennai 
-               is a dish unique to Malaysia &period; 
-               Roti means bread in Hindi &#40;and Malay&#41;
-               The term &#39;canai&#39; comes from &#39;
-               channa&#39;&comma; a mixture of boiled 
-               chickpeas in a spicy gravy&period;
+              <p><i>O</i>range juice  is the very 
+                image of refreshment&comma; 
+                packed with vitamins and radiating 
+                with sunshine freshness&period;
               </p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:8.99$</a></p>
             </div>
             
             <div class="menu">
               <h3>Water Melon</h3>
               <img src="img/watermelon.jpg" />
-              <p><i>W</i>ater Melon is a fermented crepe 
-                made from rice batter and black lentils&period; 
-                It is a staple dish in South Indian states&period;
+              <p><i>W</i>ater Melon is a No other produce screams summer
+               quite like watermelon&period; It could be its 
+               refreshing sweetness&period;
               </p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:10.00$</a></p>
             </div>
             
             <div class="menu">
               <h3>Grape Juice</h3>
               <img src="img/grape.jpg" />
-              <p><i>G</i>rape juice is a popular and tasty 
-                treat served throughout Israel. Schnitzel is
-                Austrian in origin&#59; it was traditionally 
-                made with veal &#40;known as Wiener
-                Schnitzel&#41;or pork&period;
+              <p><i>G</i>rape juice  is a bit more simpler to
+                make than wine&period;
                 </p>
-              <p><a href="#menu" class="btn">View details</a></p>
+              <p><a href="#menu" class="btn">Price:9.50$</a></p>
             </div>
-          </section><!-- /section   -->
+          </section><!-- /section juices  -->
         </div>
         <!-- /menu div  -->
     
@@ -395,20 +399,23 @@
               <a href="#engagement" data-toggle="modal" 
                 data-target="#engagementModal">
                 <p class="modaltitle">Engagement and Wedding</p>
-                <img src="img/weddingmodal.jpg"  alt="wedding"  class="circle" >
+                <img src="img/weddingmodal.jpg" alt="wedding"
+                class="circle" >
               </a>
             </li>
             <li>
               <a href="#babyShowerModal" data-toggle="modal" 
               data-target="#babyShowerModal">
               <p class="modaltitle">Baby Shower</p>
-              <img src="img/babymodal.jpg"  alt="baby shower"  class="circle">
+              <img src="img/babymodal.jpg" alt="baby shower" 
+                class="circle">
              </a>
             </li>
             <li>
               <a href="#christmasModal" data-toggle="modal" 
                 data-target="#christmasModal"><p class="modaltitle">Christmas</p>
-              <img src="img/christmasmodal1.jpg"  alt="Christmas"  class="circle" >
+              <img src="img/christmasmodal1.jpg" alt="Christmas" 
+                class="circle" >
               </a>
             </li>
           </ul>
@@ -820,41 +827,13 @@
           </div>
           
           <article class="service-article">
-            
-            <img src="img/service.jpg" width="1200" height="700" alt="Random Name"><br>
-            
-            <p><img src="img/casualservice.jpg" width="300" 
-                height="200" class="img-right" ><i>O</i>ur 
-              homely environment with  traditional music will give you 
-              a pleasant and comfortable dining experience&period;We 
-              do catering for All occasions&comma; business &amp; 
-              personal events &#45; Wedding&comma; graduation 
-              parties&comma; Birthday parties&comma; Meeting 
-              and conference&comma; community events etc&period; 
-              Fast&#45;casual restaurants are similar to 
-              fast&#45;food restaurants&comma; but customers 
-              often perceive the food as healthier or of 
-              higher quality&period; The perception of 
-              healthier or higher&#45;quality food allows 
-              owners of fast&#45;casual restaurants to 
-              charge higher prices than fast&#45;food
-              restaurants&period; Customers usually 
-              order their food at the counter and sit 
-              down at a table to enjoy their meal&period; 
-              Of course&comma; fast&#45;casual restaurants 
-              give customers the option to order food to 
-              go&period; Many fast&#45;casual restaurants 
-              serve a specialized type of food&comma; such 
-              as Mexican&comma; Chinese or fresh&#45;baked 
-              fare&period; While a fast&#45;food restaurant 
-              may serve fried chicken meals&comma; a fast&#45;
-              casual place may serve roasted chicken&comma; 
-              vegetables and baked bread&period;
-            </p> 
+            <p><h4>Our Environment</h4>
+            <img src="img/service9.jpg"  
+            alt="Random Name"><br>
+            </p>
             
             <p>
-              <img src="img/service4.jpg" width="300" height="200" 
-              class="img-left"><i>C</i>asual&#45;
+              <i>C</i>asual&#45;
                 dining restaurants offer food similar to fast&#45;casual
                 establishments but with a table&#45;service dining 
                 atmosphere&period; Most casual&#45;dining restaurants 
@@ -876,12 +855,12 @@
                 While a fast&#45;food restaurant may serve fried 
                 chicken meals&comma; a fast-casual place may 
                 serve roasted chicken&comma; vegetables 
-                and baked bread&period;
+                and baked bread&period;<img src="img/service11.jpg"  
+              class="img-left">
             </p> 
             
             <p>
-              <img src="img/service6.jpg" width="300" height="200"
-               class="img-right"><i>F</i>ine-dining 
+              <i>F</i>ine-dining 
                 restaurants usually come with the most elaborate menus 
                 and expensive prices&period; Owners of fine&#45;
                 dining restaurants want to present an atmosphere 
@@ -900,6 +879,8 @@
                 While a fast&#45;food restaurant may serve fried 
                 chicken meals&comma; a fast&#45;casual place may serve 
                 roasted chicken&comma;vegetables and baked bread&period;
+                <img src="img/service12.jpg" 
+               class="img-right">
             </p> 
           </article>
         </div><!-- /services div  -->
@@ -972,8 +953,7 @@
             <a rel="lightbox[group]" href="img/gallery14.jpg">
               <img class="group1 span3" src="img/gallery14.jpg"/>
             </a>
-            
-           
+          
           </div><!--end div -->
         
         </div><!-- /gallery div  -->
@@ -992,12 +972,17 @@
             </div>
 
             <div class="contact">
-              <p>We are hear to answer any questions you may have&period;<br>
-                Reach Out to us and we will respond as soon as we can&period;
+              <p>We are hear to answer any questions 
+                you may have&period;<br>
+                Reach Out to us and we will respond as 
+                soon as we can&period;
               </p>
-              <p><span class="glyphicon glyphicon-envelope"></span>teju@mail&period;com</p>
-              <p><span class="glyphicon glyphicon-phone"></span>+61 450267307</p>
-              <p><span class="glyphicon glyphicon-map-marker"></span>Sydney&comma;Australia</p>
+              <p><span class="glyphicon glyphicon-envelope">
+                </span>teju@mail&period;com</p>
+              <p><span class="glyphicon glyphicon-phone">
+                </span>+61 450267307</p>
+              <p><span class="glyphicon glyphicon-map-marker">
+                </span>Sydney&comma;Australia</p>
             </div>
           </section>
          
@@ -1005,7 +990,7 @@
         
         </div><!-- /contact div  -->
       
-        <!-- feedback div  -->
+       <!-- feedback div  -->
         <div id="feedback" class="container text-center">
           
           <div class="title-page">
@@ -1016,12 +1001,9 @@
           <section class="feedback clearfix">
             
             <div class="feedback">
-              <p><span class="glyphicon glyphicon-map-marker"></span>Sydney&comma;Australia</p>
-              <p><span class="glyphicon glyphicon-phone"></span> +61 450267307</p>
-              <p><span class="glyphicon glyphicon-envelope"></span> teju@mail&period;com</p>
-              <img src="img/feedback1.jpg" />
-              <img src="img/feedback.jpg" />
-              <img src="img/feedback3.jpg" />
+             
+              <img src="img/feedback4.jpg" />
+              
             </div>
             
             <div class="feedback cnt_enquiry">
@@ -1083,7 +1065,6 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>   
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/formValidate.js"></script>  
